@@ -27,3 +27,4 @@ console.log("la cantidad de personas mayores de 21 años es: " + mayor21);
 console.log(
   "la cantidad de personas que ingresaron al boliche son: " + array.length
 );
+//muy buena tu solucion!
