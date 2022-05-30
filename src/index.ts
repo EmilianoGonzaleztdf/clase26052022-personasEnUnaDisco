@@ -1,4 +1,4 @@
-let nArray: number = 10;
+let nArray: number = 270;
 let array: number[] = new Array(nArray);
 let i: number;
 let edadMaxima: number = 40;
@@ -12,7 +12,7 @@ function generarPersonasRandom(num: number): number {
 // fuente https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 for (i = 0; i < nArray; i++) {
   array[i] = generarPersonasRandom(edadMinima);
-  console.log("ingreso la persona nº" + (i + 1), "su edad es: " + array[i]);
+  //console.log("ingreso la persona nº" + (i + 1), "su edad es: " + array[i]);
 }
 
 for (i = 0; i < nArray; i++) {
@@ -24,3 +24,6 @@ for (i = 0; i < nArray; i++) {
 }
 console.log("la cantidad de personas menores de 21 años es: " + menor21);
 console.log("la cantidad de personas mayores de 21 años es: " + mayor21);
+console.log(
+  "la cantidad de personas que ingresaron al boliche son: " + array.length
+);
