@@ -1,10 +1,10 @@
-let nArray: number = 5;
+let nArray: number = 10;
 let array: number[] = new Array(nArray);
 let i: number;
-let menor21: number = 0;
-let mayor21: number = 0;
 let edadMaxima: number = 40;
 let edadMinima: number = 18;
+let menor21: number = 0;
+let mayor21: number = 0;
 
 function generarPersonasRandom(num: number): number {
   return Math.floor(Math.random() * (edadMaxima - edadMinima) + edadMinima);
