@@ -7,7 +7,7 @@ let menor21: number = 0;
 let mayor21: number = 0;
 
 function generarPersonasRandom(num: number): number {
-  return Math.floor(Math.random() * (edadMaxima - edadMinima) + edadMinima);
+  return Math.floor(Math.random() * (edadMaxima - edadMinima) + edadMinima);//los de 40 entran?
 }
 // fuente https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 for (i = 0; i < nArray; i++) {
@@ -27,3 +27,4 @@ console.log("la cantidad de personas mayores de 21 años es: " + mayor21);
 console.log(
   "la cantidad de personas que ingresaron al boliche son: " + array.length
 );
+//muy buena tu solucion!
